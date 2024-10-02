@@ -1,8 +1,7 @@
-import {AnimatedImage} from '@/pages/welcome/animatedImage/animatedImage';
+import {AnimatedImage} from '@/components/animatedImage/animatedImage';
 
 
-export const Welcome = () => {
-
+export default async function WelcomePage() {
     return (
         <>
             <h1 className="text-3xl">Here is a cat!</h1>
