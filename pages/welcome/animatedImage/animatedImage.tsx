@@ -4,6 +4,7 @@ type Props = {
 }
 export const AnimatedImage = ({path}: Props) => {
     return (
+        // eslint-disable-next-line @next/next/no-img-element
         <img src={path} alt="a random cat image" className={style.illustration} />
     )
 }
