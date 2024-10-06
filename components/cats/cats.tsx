@@ -2,7 +2,7 @@
 import {AnimatedImage} from '@/components/animatedImage/animatedImage';
 import {useEffect, useRef, useState} from 'react';
 
-const MAX_CATS = 5;
+const MAX_CATS = 4;
 
 export default function Cats() {
     const [count, setCount] = useState(1);
