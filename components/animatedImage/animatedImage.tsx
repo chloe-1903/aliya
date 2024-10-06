@@ -4,6 +4,6 @@ type Props = {
 }
 export function AnimatedImage({path}: Props) {
     return (
-        <img src={path} alt=" random cat image" className={style.illustration} />
+        <img src={path} alt="random cat image" className={style.illustration} />
     )
 }
